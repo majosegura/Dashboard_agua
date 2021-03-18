@@ -92,7 +92,7 @@ ganancias_mensuales_m3<-ganancias_mensuales_m2
 mes<-10
 ui <- dashboardPage(
     skin = "black",
-    dashboardHeader(title=''),
+    dashboardHeader(title='Santa Elena'),
     dashboardSidebar(
         sidebarMenu(
             menuItem('General',tabName = 'General',icon=icon('fas fa-chart-line')),
